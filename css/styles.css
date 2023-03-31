@@ -32,12 +32,20 @@ body {
   color: var(--iris);
 }
 .logo-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  color: var(--navy-blue);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
   text-decoration: none;
+}
+.accent-header {
+  color: var(--navy-blue);
+}
+.accent-footer {
+  color: var(--cloud);
 }
 .header-nav-list,
 .list {
@@ -127,7 +135,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  color: var(--cloud);
+  color: var(--iris);
 }
 .footer-text {
   color: var(--cloud);
