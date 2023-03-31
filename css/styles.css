@@ -60,7 +60,7 @@ body {
 .contact-item {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 .contact-item:hover,
