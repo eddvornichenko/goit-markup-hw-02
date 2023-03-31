@@ -120,9 +120,13 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
-.products-item {
+.products-item,
+.teams-item {
   background-color: var(--white);
 }
 .our-team-section {
@@ -134,10 +138,10 @@ body {
   height: 312px;
 }
 .footer-section .link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--iris);
 }
 .footer-text {
