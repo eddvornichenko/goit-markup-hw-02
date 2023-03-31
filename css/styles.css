@@ -86,12 +86,13 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  width: 496px;
-  height: 120px;
 }
 .hero-section-button {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris);
   cursor: pointer;
@@ -99,8 +100,6 @@ body {
 .hero-section-button:hover,
 .hero-section-button:focus {
   background: var(--ocean);
-}
-.skills-section {
 }
 .hidden-title {
   visibility: hidden;
@@ -122,6 +121,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
+}
+.products-item {
+  background-color: var(--white);
 }
 .our-team-section {
   background-color: var(--cloud);
