@@ -77,8 +77,6 @@ body {
 }
 .hero-section {
   background-color: var(--navy-blue);
-  width: 1440px;
-  height: 600px;
 }
 .hero-section-title {
   font-size: 56px;
